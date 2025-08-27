@@ -672,8 +672,9 @@ section {
 
 @media (min-width: 1024px) {
     .service-areas-content {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
+        
 }
 
 .areas-image-container {
@@ -749,8 +750,19 @@ section {
 
 .service-areas-list {
     display: flex;
+    
     flex-direction: column;
     gap: 2rem;
+}
+@media (min-width: 1024px) {
+    
+
+    .service-areas-list {
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: row;
+        gap: 2rem; */
+    }
 }
 
 .area-card {
