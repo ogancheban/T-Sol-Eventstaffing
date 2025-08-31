@@ -63,9 +63,9 @@ function initializeMobileMenu() {
         // Animate hamburger
         const hamburgers = mobileMenuBtn.querySelectorAll('.hamburger');
         if (mobileMenu.classList.contains('open')) {
-            hamburgers[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+            hamburgers[0].style.transform = 'rotate(45deg) translate(7px, 7px)';
             hamburgers[1].style.opacity = '0';
-            hamburgers[2].style.transform = 'rotate(-45deg) translate(7px, -6px)';
+            hamburgers[2].style.transform = 'rotate(-45deg) translate(6px, -7px)';
         } else {
             hamburgers.forEach(bar => {
                 bar.style.transform = '';
